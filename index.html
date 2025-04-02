@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>CasinoHotelNice - Luksusowe Kasyna i Hotele w Polsce</title>
+    <meta name="keywords"
+        content="kasyno, hotel, luksusowy pobyt, gry kasynowe, nocleg, rozrywka, VIP, najlepsze kasyna w Polsce, eleganckie hotele">
+    <meta name="description"
+        content="CasinoHotelNice to idealne połączenie luksusowego pobytu i ekscytujących gier kasynowych. Odkryj najlepsze kasyna i hotele w Polsce z ekskluzywną obsługą.">
+    <link href="img/ico.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="cookie-banner" class="cookie-banner">
+        <p>
+            Używamy plików cookie, aby poprawić Twoje doświadczenie. Kontynuując, zgadzasz się na naszą
+            <a href="cookie.html">Politykę Plików Cookie</a> oraz
+            <a href="terms.html">Regulamin</a>.
+        </p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies">Akceptuję</button>
+            <button id="decline-cookies">Odrzucam</button>
+        </div>
+    </div>
+    
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="index.html" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0">Casinohotelnice</h1>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="index.html" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">Casinohotelnice</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="index.html" class="nav-item nav-link">Strona Główna</a>
+                    <a href="#about" class="nav-item nav-link">O Nas</a>
+                    <a href="#services" class="nav-item nav-link">Usługi</a>
+                    <a href="#hotels" class="nav-item nav-link">Nasze Hotele</a>
+                    <a href="#testi" class="nav-item nav-link">Opinie Klientów</a>
+                    <a href="#contact" class="nav-item nav-link">Kontakt</a>
+                    
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/bg.jpg" alt="Casino Hotel">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Ekskluzywne Kasyno &
+                                    Hotel</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Luksusowy Pobyt z Emocjami
+                                    Kasyna</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Odkryj wyjątkowe połączenie luksusowego
+                                    hotelu i ekscytujących gier kasynowych. Komfort, elegancja i adrenalina w jednym
+                                    miejscu.</p>
+                                <a href="#hotels" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Dowiedz się
+                                    więcej</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/bg-2.jpg" alt="Casino Lounge">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Najlepsze Kasyno w
+                                    Polsce</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Rozrywka na Najwyższym
+                                    Poziomie</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Luksusowe pokoje, światowej klasy gry
+                                    kasynowe i wyjątkowa obsługa. Czas na niezapomniane doświadczenie w CasinoHotelNice.
+                                </p>
+                                <a href="#hotels" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Zarezerwuj
+                                    pobyt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">O nas</h6>
+                    <h1 class="mb-4">Luksusowe doświadczenie w CasinoHotelNice</h1>
+                    <p class="mb-4">
+                        CasinoHotelNice to miejsce, gdzie luksusowy pobyt łączy się z ekscytującą rozrywką kasynową.
+                        Oferujemy najwyższy standard zakwaterowania, niezrównane gry i niezapomnianą atmosferę.
+                    </p>
+                    <p class="fw-medium text-primary">
+                        <i class="fa fa-check text-success me-3"></i>Eleganckie pokoje i apartamenty
+                    </p>
+                    <p class="fw-medium text-primary">
+                        <i class="fa fa-check text-success me-3"></i>Najlepsze kasyno w Polsce
+                    </p>
+                    <p class="fw-medium text-primary">
+                        <i class="fa fa-check text-success me-3"></i>Wyjątkowa obsługa i ekskluzywne usługi
+                    </p>
+                </div>
+                <div class="col-lg-6 pt-4" style="min-height: 500px;">
+                    <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;"
+                            alt="Casino Hotel">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="stats" class="container-fluid fact bg-dark my-5 py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <i class="fa fa-hotel fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">10</h2>
+                    <p class="text-white mb-0">Luksusowych Hoteli</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                    <i class="fa fa-dice fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">500</h2>
+                    <p class="text-white mb-0">Gier Kasynowych</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <i class="fa fa-smile fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">50,000</h2>
+                    <p class="text-white mb-0">Zadowolonych Gości</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                    <i class="fa fa-cocktail fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">1000</h2>
+                    <p class="text-white mb-0">Ekskluzywnych Eventów</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services" class="container-fluid py-5 px-4 px-lg-0">
+        <div class="row g-0">
+            <div class="col-lg-3 d-none d-lg-flex">
+                <div class="d-flex align-items-center justify-content-center bg-primary w-100 h-100">
+                    <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">Najlepsza rozrywka w Polsce
+                    </h1>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-9">
+                <div class="ms-lg-5 ps-lg-5">
+                    <div class="text-center text-lg-start wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="text-secondary text-uppercase">Nasze Usługi</h6>
+                        <h1 class="mb-5">Poznaj nasze ekskluzywne oferty</h1>
+                    </div>
+                    <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-light p-4">
+                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
+                                style="width: 75px; height: 75px;">
+                                <i class="fa fa-dice fa-2x text-primary"></i>
+                            </div>
+                            <h4 class="mb-3">Kasyno Premium</h4>
+                            <p>Ekscytujące gry, wysokie wygrane i ekskluzywna atmosfera w naszym kasynie.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Najlepsze gry
+                            </p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>VIP Strefa
+                            </p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Obsługa 24/7
+                            </p>
+                            <a href="#hotels" class="btn bg-white text-primary w-100 mt-2">Dowiedz się więcej<i
+                                    class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                        </div>
+                        <div class="bg-light p-4">
+                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
+                                style="width: 75px; height: 75px;">
+                                <i class="fa fa-bed fa-2x text-primary"></i>
+                            </div>
+                            <h4 class="mb-3">Luksusowe Apartamenty</h4>
+                            <p>Eleganckie pokoje z widokiem na miasto i pełnym komfortem.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Nowoczesny
+                                design</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Wyjątkowy
+                                komfort</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Dostęp 24/7
+                            </p>
+                            <a href="#hotels" class="btn bg-white text-primary w-100 mt-2">Zarezerwuj teraz<i
+                                    class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                        </div>
+                        <div class="bg-light p-4">
+                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
+                                style="width: 75px; height: 75px;">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                            </div>
+                            <h4 class="mb-3">Restauracje Gourmet</h4>
+                            <p>Najlepsza kuchnia międzynarodowa i wykwintne dania w eleganckiej atmosferze.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Ekskluzywne
+                                menu</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Najlepsi
+                                szefowie</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Rezerwacje
+                                VIP</p>
+                            <a href="#hotels" class="btn bg-white text-primary w-100 mt-2">Sprawdź menu<i
+                                    class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                        </div>
+                        <div class="bg-light p-4">
+                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
+                                style="width: 75px; height: 75px;">
+                                <i class="fa fa-glass-cheers fa-2x text-primary"></i>
+                            </div>
+                            <h4 class="mb-3">Ekskluzywne Eventy</h4>
+                            <p>Organizujemy prestiżowe wydarzenia, bankiety i wieczory tematyczne.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Gala &
+                                Bankiety</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Wieczory
+                                tematyczne</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Obsługa VIP
+                            </p>
+                            <a href="#hotels" class="btn bg-white text-primary w-100 mt-2">Zarezerwuj event<i
+                                    class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="hotels" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">Nasze Hotele</h6>
+                <h1 class="mb-5">Wybierz Idealne Miejsce na Nocleg i Rozrywkę</h1>
+                <p class="mb-4">Odkryj luksusowe hotele z ekskluzywnymi kasynami, oferujące najlepszą rozrywkę i komfortowy pobyt.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="hotel-item bg-light p-4">
+                        <img class="img-fluid w-100 mb-3 img-hotel" src="img/h-1.jpg" alt="Hotel Bellotto">
+                        <h4 class="mb-3">Hotel Bellotto - Warszawa</h4>
+                        <p class="mb-3">Luksusowy hotel w samym sercu Warszawy, mieszczący się w historycznym pałacu. Oferuje eleganckie pokoje, wyśmienitą kuchnię i wyjątkową atmosferę.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-check text-success me-2"></i>5-gwiazdkowy hotel</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Wykwintna restauracja</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Blisko Starego Miasta</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Ekskluzywne kasyno na miejscu 🎲</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary w-100">Zarezerwuj Teraz</a>
+                    </div>
+                </div>
+    
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="hotel-item bg-light p-4">
+                        <img class="img-fluid w-100 mb-3 img-hotel" src="img/h-2.jpg" alt="Apartamenty w Sky Tower">
+                        <h4 class="mb-3">Apartamenty w Sky Tower - Wrocław</h4>
+                        <p class="mb-3">Ekskluzywne apartamenty w najwyższym budynku Wrocławia, oferujące spektakularne widoki i najwyższy standard komfortu.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-check text-success me-2"></i>Nowoczesne apartamenty</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Widok na panoramę miasta</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Blisko atrakcji turystycznych</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Ekskluzywne kasyno z automatami i pokerem 🃏</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary w-100">Zarezerwuj Teraz</a>
+                    </div>
+                </div>
+    
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="hotel-item bg-light p-4">
+                        <img class="img-fluid w-100 mb-3 img-hotel" src="img/h-3.jpg" alt="Hotel Gołębiewski">
+                        <h4 class="mb-3">Hotel Gołębiewski - Wisła</h4>
+                        <p class="mb-3">Ekskluzywny hotel z kompleksem basenowym i spa, położony w malowniczej Wiśle. Idealne miejsce na relaks i rodzinne wakacje.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-check text-success me-2"></i>Park wodny Tropikana</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Ekskluzywne spa i wellness</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Górskie widoki</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Kasyno VIP dla gości hotelowych 🎰</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary w-100">Zarezerwuj Teraz</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="hotel-item bg-light p-4">
+                        <img class="img-fluid w-100 mb-3 img-hotel" src="img/h-4.png" alt="Hotel City">
+                        <h4 class="mb-3">Hotel City - Kraków</h4>
+                        <p class="mb-3">Nowoczesny hotel w samym centrum Krakowa, idealny zarówno dla turystów, jak i osób podróżujących służbowo.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-check text-success me-2"></i>Blisko Rynku Głównego</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Nowoczesne wnętrza</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Świetne połączenie komunikacyjne</li>
+                            <li><i class="fa fa-check text-success me-2"></i>Stylowe kasyno z blackjackiem i ruletką 🏆</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary w-100">Zarezerwuj Teraz</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="testi" class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">Opinie Klientów</h6>
+                <h1 class="mb-5">Co Mówią Nasi Goście?</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">"Niezapomniane wrażenia! Luksusowy hotel, świetna obsługa i ekscytujące gry
+                            kasynowe. Na pewno wrócę!"</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/rev-1.png"
+                        style="width: 80px; height: 80px; object-fit:cover">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Michał Nowak</h5>
+                    <p class="m-0">Biznesmen</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">"Eleganckie pokoje, doskonała kuchnia i wieczory pełne emocji w kasynie! Idealne
+                            miejsce na relaks."</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/rev-2.png"
+                        style="width: 80px; height: 80px; object-fit:cover">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Katarzyna Wiśniewska</h5>
+                    <p class="m-0">Podróżniczka</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">"Profesjonalna obsługa, świetna atmosfera i możliwość wygrania wielkich nagród.
+                            Zdecydowanie najlepsze kasyno w Polsce!"</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/rev-3.png"
+                        style="width: 80px; height: 80px; object-fit:cover">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Tomasz Lewandowski</h5>
+                    <p class="m-0">Przedsiębiorca</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">"Idealne miejsce na weekendowy wypad! Kasyno, świetne drinki i koncerty na żywo
+                            – wszystko w jednym miejscu!"</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/rev-4.png"
+                        style="width: 80px; height: 80px; object-fit:cover">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Anna Kowalczyk</h5>
+                    <p class="m-0">Blogerka</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Skontaktuj się z nami</h6>
+                    <h1 class="mb-4">Masz pytania? Napisz do nas!</h1>
+                    <p class="mb-4">
+                        Skorzystaj z naszego formularza kontaktowego, aby uzyskać więcej informacji na temat naszego
+                        kasyna i hotelu.
+                        Odpowiemy tak szybko, jak to możliwe!
+                    </p>
+                </div>
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-light p-5 h-100 d-flex align-items-center">
+                        <form action="thankyou.php" method="post">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" name="name"
+                                            placeholder="Twoje Imię" required>
+                                        <label for="name">Twoje Imię</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" name="email"
+                                            placeholder="Twój Email" required>
+                                        <label for="email">Twój Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="tel" class="form-control" id="phone" name="phone"
+                                            placeholder="Twój Numer Telefonu" required>
+                                        <label for="phone">Twój Numer Telefonu</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Wpisz swoją wiadomość tutaj"
+                                            id="message" name="message" style="height: 150px" required></textarea>
+                                        <label for="message">Twoja Wiadomość</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Wyślij Wiadomość</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Adres</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>ul. Nowowiejska 12, 00-653 Warszawa, Polska
+                    </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+48 32  793 95 17</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>kontakt@casinohotelnice.pl</p>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Szybkie Linki</h4>
+                    <a class="btn btn-link" href="index.html">Strona Główna</a>
+                    <a class="btn btn-link" href="#about">O Nas</a>
+                    <a class="btn btn-link" href="#services">Usługi</a>
+                    <a class="btn btn-link" href="#hotels">Nasze Hotele</a>
+                    <a class="btn btn-link" href="#testi">Opinie Klientów</a>
+                    <a class="btn btn-link" href="#contact">Kontakt</a>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">informacje</h4>
+                    <a class="btn btn-link" href="privacy.html">Polityka prywatności</a>
+                    <a class="btn btn-link" href="terms.html">Zasady i warunki</a>
+                    <a class="btn btn-link" href="cookie.html">Polityka Cookie</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Zapisz się do Newslettera</h4>
+                    <p>Otrzymuj ekskluzywne oferty, promocje i najnowsze informacje o naszych kasynach i hotelach.</p>
+                    <form action="thankyou.php" method="post" class="position-relative mx-auto"
+                        style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" name="email"
+                            placeholder="Twój e-mail" required>
+                        <button type="submit"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Zapisz się</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">CasinoHotelNice</a>, Wszelkie prawa
+                        zastrzeżone.
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
